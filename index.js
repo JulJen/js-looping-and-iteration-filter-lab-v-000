@@ -20,5 +20,5 @@ function findMatching(array, name) {
 
  function matchName(collection, name) {
    return collection.map(collection => collection.name);
-   })
+   }
  }
