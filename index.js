@@ -18,7 +18,7 @@ function findMatching(array, name) {
 
  // takes an array of drivers and a string as arguments, each element of the drivers array is a JavaScript object that has a property of name. The function should return each element whose name property matches the provided string argument.
 
- function matchName(array, name) {
+ function matchName(collection, name) {
    return array.filter(function (driver) {
      return driver.startsWith(name)
    })
