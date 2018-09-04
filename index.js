@@ -20,6 +20,6 @@ function findMatching(array, name) {
 
  function matchName(collection, name) {
    return collection.filter(function (collection) {
-     return driver.startsWith(name)
+     return collection.map(collection => collection.name);
    })
  }
