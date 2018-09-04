@@ -20,6 +20,6 @@ function findMatching(array, name) {
 
  function matchName(collection, name) {
    return collection.filter(function (driver) {
-     return collection.(driver => driver.name);
+     return collection.map(collection => collection.name);
    })
  }
