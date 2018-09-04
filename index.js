@@ -20,6 +20,6 @@ function findMatching(array, name) {
 
  function matchName(collection, name) {
    return collection.filter(function (collectionName) {
-     return collection.map(collectionName.toLowerCase() => name.toLowerCase());
+     return collectionName.name === name
    })
  }
